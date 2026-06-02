@@ -27,7 +27,7 @@ class Ans {
                     left++;
                     right--;
 
-                    // Skip duplicates
+                    //  Skip duplicates
                     while (left < right && nums[left] == nums[left - 1]) {
                         left++;
                     }
